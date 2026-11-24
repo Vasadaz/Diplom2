@@ -221,3 +221,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project
+ai
+.idea
+
+# Отчёты Allure: сырые результаты прогона и собранный html
+allure-results/
+allure-report/
+
+# macOS
+.DS_Store

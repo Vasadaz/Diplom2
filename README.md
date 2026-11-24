@@ -71,6 +71,7 @@ pytest tests/test_create_order.py -v    # один модуль
 ## Отчёт Allure
 
 ```bash
+pytest --alluredir=allure-results --clean-alluredir
 allure serve allure-results      # локальный просмотр
 # или
 allure generate allure-results -o allure-report --clean
@@ -109,7 +110,7 @@ Allure CLI ставится отдельно от pip — инструкция: 
 
 ## Ожидания и расхождения со стендом
 
-При прогоне на `stellarburgers.education-services.ru` от [документации](https://code.s3.yandex.net/qa-automation-engineer/python-full/diploma/Api-Stellar_Burgers.pdf) расходятся три сценария:
+При прогоне на `stellarburgers.education-services.ru` от документации расходятся три сценария:
 
 | Что проверяется | Документация | Ответ стенда на 24.11.2026 | Тест |
 |---|---|---|---|

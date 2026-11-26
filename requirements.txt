@@ -1,0 +1,5 @@
+allure-pytest==2.16.2
+Faker==40.63.0
+pytest==9.2.0
+python-dotenv==1.2.4
+requests==2.34.2
